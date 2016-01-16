@@ -40,6 +40,33 @@
 
       </header>
 
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Web Development</h4>
+          <p class="resume-item-copy">Proficient in technologies such as HTML5, JS, JQuery, CSS, Ruby on Rails and Wordpress. Has some experience managing MySQL and PostgreSQL databases. Experience with deploying websites and applications to local servers, cloud servers and Heroku.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Software Development</h4>
+          <p class="resume-item-copy">Experience with Ruby, PHP and Bash shell scripting. Familiar with Agile development methodologies. Uses version control systems such as Git and Github.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Dev Ops / Operating Systems</h4>
+          <p class="resume-item-copy">Experience with Unix based systems including Linux and FreeBSD. Configuration of web servers and software including Heroku, Nginx and Apache.</p>
+        </div>
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -53,14 +80,13 @@
           <h3 class="resume-item-title">Spire Labs</h3>
           <h4 class="resume-item-details">Owner / Developer
  &bull; Jan, 2015 &mdash; Present</h4>
-          <p class="resume-item-copy">Spire Labs creates custom websites and e-commerce sites for businesses that both improve increase recognition and visibility of the business brand, and also to drive more customers to their services and products.</p>
+          <p class="resume-item-copy">Spire Labs creates custom websites and e-commerce sites for businesses that both improve and increase recognition and visibility of the business brand, and drives more customers to their services and products.</p>
 
           <ul class="resume-item-list">
-            <li>Custom HTML5, CSS, JS</li>
+            <li>Custom HTML5, CSS &amp; JS</li>
             <li>Technology platforms include Wordpress and Ruby on Rails</li>
-            <li>Version Control via Git and Github</li>
-            <li>Deployment to custom cloud servers (Digital Ocean) and Heroku</li>
             <li>Consulting on web design, usability and analytics</li>
+            <li>Deployment to custom cloud servers (Digital Ocean) and Heroku</li>
             <li>Advertising on Google Adwords and Facebook Ads</li>
           </ul>
 
@@ -73,15 +99,14 @@
  &bull; Jan, 2012 &mdash; Present</h4>
           <p class="resume-item-copy">Involved in a large range of duties, from technical support of our 300+ end users, to custom coding internal web applications and scripts to support our business processes.</p>
           <ul class="resume-item-list">
-            <li>Develops custom web applications within company intranet utilizing database connectivity</li>
-            <li>Develops public facing websites for company promotions</li>
-            <li>Proficient with web development languages HTML5, CSS, PHP, JS, Ruby and MySQL</li>
-            <li>Built user entrance pages for the online stores of Bartle &amp; Gibson and Best Plumbing</li>
-            <li>Involved in the maintenance and content creation via CMS for company website</li>
-            <li>Experienced with Windows, Mac OS and Linux environments</li>
+            <li>Provides phone and email technical support to 300+ end users across 31 branches</li>
             <li>Coordinates EDI (Electronic Data Interchange) orders from purchasers. Involved in the maintenance of product tables, UPC codes and product numbers</li>
             <li>Administers virtual Windows, Windows Server and Linux machines on VMware vSphere virtualization software</li>
-            <li>Provides phone and email technical support to 300+ end users across 31 branches</li>
+            <li>Develops custom web applications and programs internally to support business processes</li>
+            <li>Develops public facing websites for company promotions</li>
+            <li>Built customer login pages for the online stores of Bartle & Gibson and Best Plumbing</li>
+            <li>Involved in the maintenance and content creation via CMS for company website</li>
+            <li>Experienced with Windows, Mac OS and Linux environments</li>
           </ul>
 
         </div><!-- end of resume-item -->
@@ -143,33 +168,6 @@
       <!-- end Education -->
       {% endif %}
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Web Development</h4>
-          <p class="resume-item-copy">Proficient is technologies such as HTML, JS, Jquery, CSS, Ruby on Rails and Wordpress.</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Software Development</h4>
-          <p class="resume-item-copy">Experience with Ruby, PHP and Bash shell scripting. Familiar with Agile development methodologies.</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Dev Ops / Operating Systems</h4>
-          <p class="resume-item-copy">Experienced with Unix based systems including Linux and FreeBSD. Configuration of web servers and software including Heroku, Nginx and Apache.</p>
-        </div>
-
-      </section>
-      <!-- end Skills -->
-      {% endif %}
-
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -180,7 +178,7 @@
 
         <div class="resume-item">
           <h3 class="resume-item-title"><a href="http://spirelabs.ca" target="_blank">Spire Labs</a></h3>
-          <h4 class="resume-item-details">Founder &amp; Primary Developer &bull; 2015 &mdash; Present</h4>
+          <h4 class="resume-item-details">Owner &amp; Developer &bull; 2015 &mdash; Present</h4>
           <p class="resume-item-copy">Edmonton web design &amp; development.</p>
         </div>
 

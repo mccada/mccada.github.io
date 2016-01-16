@@ -89,14 +89,14 @@
   .icon-link { display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: #75b304;
       @include transition(all .2s ease);
     }
   }
 }
 
 .contact-button {
-  @include border-radius(3px);
+  @include border-radius(7px);
   background-color: #efefef;
   text-decoration: none;
   text-align: center;
@@ -110,7 +110,7 @@
   @include transition(all .2s ease);
 
   &:hover {
-    background-color: #333;
+    background-color: #75b304;
     color: #fff;
   }
 
@@ -160,7 +160,7 @@
 // footer styles
 
 .page-footer {
-  border-top: 4px solid #c7c7c7;
+  border-top: 4px solid #75b304;
   padding-top: 1.5rem;
   text-align: center;
   margin-bottom: 3rem;
